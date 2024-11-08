@@ -13,7 +13,7 @@ class Boa_Constrictor(Animal_exotico):
         return self._ratones_comidos
     
     def comer_raton(self):
-        if self._ratones_comidos >= 10:
+        if self._ratones_comidos >= 20:
            # Lanza excepción si ha comido 10 ratones
            raise ValueError("Demasiado ratones!")
            # Incrementa el contador si no ha alcanzado el límite

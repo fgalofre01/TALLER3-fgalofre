@@ -18,12 +18,12 @@ class TestBoas(unittest.TestCase):
         guarderia = Guarderia()
         boa1 = guarderia.boas[0]
         # Se alimenta la boa hasta 5 ratones y verificamos el contador
-        for _ in range(5):
+        for _ in range(10):
           self.assertEqual(boa1.comer_raton(), boa1._ratones_comidos)
          # Alimentamos la boa usando el método alimentar_boa
         self.assertEqual(guarderia.alimentar_boa(boa1),"Exito")# Sexta alimentación
          # Alimentar hasta el límite
-        for _ in range(4):
+        for _ in range(9):
             guarderia.alimentar_boa(boa1)
         # Intentar alimentar más allá del límite
         self.assertEqual(guarderia.alimentar_boa(boa1), "La boa esta llena, Demasiado ratones!")
