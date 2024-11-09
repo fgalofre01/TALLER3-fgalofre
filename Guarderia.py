@@ -1,6 +1,7 @@
 from Huron import Huron
 from Boa_Constrictor import Boa_Constrictor
 
+
 class Guarderia():
     
     def __init__(self):
@@ -18,11 +19,3 @@ class Guarderia():
                return "Exito"  # Si no hay excepción, el mensaje de éxito
             except ValueError as e:
                return f"La boa esta llena, {e}"  # Retornamos el mensaje de la excepción ("Demasiados Ratones!")
-
-if __name__ == "__main__":
-    guarderia = Guarderia()
-    
-    for i in range(11):
-        resultado = guarderia.alimentar_boa(guarderia.boas[0])
-        print(resultado)
-    
