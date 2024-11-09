@@ -1,7 +1,6 @@
 from Huron import Huron
 from Boa_Constrictor import Boa_Constrictor
 
-
 class Guarderia():
     
     def __init__(self):
