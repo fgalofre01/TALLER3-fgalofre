@@ -4,12 +4,12 @@ from Guarderia import Guarderia
 
 class TestBoas(unittest.TestCase):
     def test_hacer_sonido(self):
-        boa1 = Boa_Constrictor(nombre="Boa1", peso=25.5, edad=10, pais_origen="Colombia", impuesto=0.16)
+        boa1 = Boa_Constrictor(nombre= "Boa1", peso= 25.5, edad= 10, pais_origen= "Colombia", impuesto= 0.16)
         self.assertIn(boa1.hacer_sonido(), "¡Tsss!")
         print(boa1.__dict__)
 
     def test_cacular_flete(self):
-        boa1 = Boa_Constrictor(nombre="Boa1", peso=25.5, edad=10, pais_origen="Colombia", impuesto=0.16)
+        boa1 = Boa_Constrictor(nombre= "Boa1", peso= 25.5, edad= 10, pais_origen= "Colombia", impuesto= 0.16)
         self.assertEqual(boa1.calcular_flete(), 4.08)
         print(boa1.__dict__)
     
