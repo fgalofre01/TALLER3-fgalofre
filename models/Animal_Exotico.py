@@ -1,4 +1,4 @@
-from Animal import Animal
+from models.Animal import Animal
 
 class Animal_exotico(Animal):
     def __init__(self, nombre, peso, edad, pais_origen, impuesto ):

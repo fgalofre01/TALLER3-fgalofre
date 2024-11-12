@@ -1,5 +1,5 @@
 import unittest
-from Huron import Huron
+from models.Huron import Huron
 
 class TestHurones(unittest.TestCase):
     def test_hacer_sonido(self):

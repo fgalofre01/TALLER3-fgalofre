@@ -1,5 +1,5 @@
 from abc import ABC,abstractmethod
-from IAnimal import IAnimal
+from models.IAnimal import IAnimal
 
 class Animal(IAnimal,ABC):
     def __init__(self, nombre: str, peso: float, edad: int):

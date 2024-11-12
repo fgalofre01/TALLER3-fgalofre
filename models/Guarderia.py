@@ -1,5 +1,5 @@
-from Huron import Huron
-from Boa_Constrictor import Boa_Constrictor
+from models.Huron import Huron
+from models.Boa_Constrictor import Boa_Constrictor
 
 class Guarderia():
     

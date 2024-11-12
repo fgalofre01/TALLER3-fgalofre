@@ -1,4 +1,4 @@
-from Animal_Exotico import Animal_exotico
+from models.Animal_Exotico import Animal_exotico
 
 class Huron(Animal_exotico):
     
